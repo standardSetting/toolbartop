@@ -9,6 +9,7 @@ function MyEditor(){
   return (
     <div className="ml5 mr5 mt1 mb2 ba b--light-gray shadow-4 bg-white">
     <Editor
+       apiKey='8ew2z9apzf2kq1pau85qh01639rvhp79i4rnxgks7xl4y28u'
        onInit={(evt, editor) => editorRef.current = editor}
        initialValue="Use the toolbar above to edit this content.<br><br>"
        init={{
