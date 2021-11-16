@@ -15,4 +15,12 @@ code {
 .tox-tinymce {
   top: 0px !important;
   left: 64px !important;
+  z-index: 99;
+}
+
+.toolbarmockimage {
+  position:sticky;
+  z-index: 9;
+  top: 0px !important;
+  left: 64px !important;
 }
