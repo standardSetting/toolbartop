@@ -51,6 +51,7 @@ function App() {
       </div>
       <p className='ml5'>Press the append button to add another area that you can edit with this tool bar.</p>
       <button onClick={appendEditor} className='pointer ml5'>Append</button>
+      <a href="https://standardsetting.github.io/toolbarfollow/" className='b ml5'>Switch to the Celia Configuration.</a>
       <div style={{'margin-top':'100px'}}>
         {myEditors}
       </div>
